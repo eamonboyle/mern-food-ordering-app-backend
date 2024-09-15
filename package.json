@@ -5,7 +5,7 @@
     "main": "./src/index.ts",
     "scripts": {
         "dev": "nodemon --exec ts-node src/index.ts",
-        "build": "bun install && bun run tsc",
+        "build": "npm install && npx tsc",
         "start": "node dist/index.js"
     },
     "keywords": [],
